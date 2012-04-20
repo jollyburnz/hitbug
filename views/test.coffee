@@ -26,7 +26,8 @@ jQuery ->
 					gitUsers.add githubUser
 
 		test: (model) ->
-			$("#user-list").append("<img src=#{model.get('avatar_url')} />");
+			$("#user-list").append("<img src=#{model.get('avatar_url')} />")
+			console.log('hit')
 		events:
 			"click #add-user": "showPrompt"
 
