@@ -1,12 +1,13 @@
 doctype html
 html
   head
-  	link href='/stylesheets/foundation.css' media='screen' rel='stylesheet' type='text/css'
-  	link href='/stylesheets/ie.css' media='screen' rel='stylesheet' type='text/css'
-  	link href='/stylesheets/app.css' media='screen' rel='stylesheet' type='text/css'
-  	script type="text/javascript" src="javascripts/foundation/foundation.js"
-  	script type="text/javascript" src="javascripts/foundation/app.js"
+		link href='/stylesheets/foundation.css' media='screen' rel='stylesheet' type='text/css'
+		link href='/stylesheets/ie.css' media='screen' rel='stylesheet' type='text/css'
+		link href='/stylesheets/app.css' media='screen' rel='stylesheet' type='text/css'
 		script type="text/javascript" src="javascripts/jquery.js"
+		script type="text/javascript" src="javascripts/foundation/modernizr.foundation.js"
+		script type="text/javascript" src="javascripts/foundation/foundation.js"
+		script type="text/javascript" src="javascripts/foundation/app.js"
 		script type="text/javascript" src="javascripts/underscore.js"
 		script type="text/javascript" src="javascripts/backbone.js"
 
@@ -16,7 +17,7 @@ body
   		.twelve.columns
   			img src="images/hitbug.png"
   			br
-  			a.button.round.blue.large.nice href="/login" Login to Github
+  			a.button.round.blue.large.nice href="/auth/github" Login to Github
   			#content
 
 	script type="text/javascript" src="test.js"
